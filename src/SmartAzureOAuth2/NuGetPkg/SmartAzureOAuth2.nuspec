@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SmartAzureOAuth2</id>
+        <version>0.0.1</version>
+        <title>SmartAzureOAuth2</title>
+        <authors>JulioGold</authors>
+        <owners>JulioGold</owners>
+        <licenseUrl>https://raw.githubusercontent.com/JulioGold/SmartAzureOAuth2/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/JulioGold/SmartAzureOAuth2</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Azure OAuth2 helper to obtain acess token</description>
+        <releaseNotes>Package created.</releaseNotes>
+        <copyright>Copyright 2016</copyright>
+        <tags>Azure OAuth Token OAuth2 AcessToken Management WebApi Api</tags>
+        <dependencies>
+            <dependency id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="3.13.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="..\SmartAzureOAuth2\bin\Release\SmartAzureOAuth2.dll" target="lib\net452\SmartAzureOAuth2.dll" />
+    </files>
+</package>
